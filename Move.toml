@@ -1,0 +1,16 @@
+[package]
+name = "MedicareIntegration"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xe7a228f051353aa2b276dd4aed90d77f9b80b4b09ddd5e584099003727ec3989"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
